@@ -1,0 +1,145 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff0f5;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.auth-card {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(220, 80, 130, 0.15);
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #e75480;
+  margin-bottom: 25px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #888;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 14px;
+  border: 1px solid #f0b6ca;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #e75480;
+}
+
+button {
+  padding: 14px;
+  background: #e75480;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d63d70;
+}
+
+.switch {
+  margin-top: 25px;
+  color: #777;
+  font-size: 14px;
+}
+
+.switch span {
+  color: #e75480;
+  font-weight: bold;
+  cursor: pointer;
+}
+.dashboard {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 20px;
+  color: #333;
+}
+
+.dashboard h1 {
+  color: #e75480;
+  margin-bottom: 10px;
+}
+
+.reading-card {
+  background: white;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.reading-card h2 {
+  margin-bottom: 20px;
+}
+
+.reading-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reading-card select {
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.message {
+  margin-top: 15px;
+  color: #d94370;
+}
+
+.reading-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  gap: 15px;
+}
+
+.delete-button {
+  background: #dc3545;
+  padding: 9px 15px;
+}
